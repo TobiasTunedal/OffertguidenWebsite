@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    #myCarousel {
+        max-width: 50%;
+        min-height: 320px;
+        margin-left: 50%;
+        margin-top: 7%;
+        box-shadow: 2px -2px 100px rgba(0,0,0,.5);
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        display: block;
+        min-width: 600px;
+        height: 350px;
+    }
+    .carousel-inner > .item > img {
+        margin: 0 auto;
+    }
+    body{
+        line-height: 26px;
+        font-family: Verdana;
+    }
+    .img-circle{
+
+       height: 200px;
+       width: 200px;
+    }
+
+</style>
+<div class="col-md-6">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <h1>Din guide i byggdjungeln</h1>
+    <p>Känns upphandlingar och offerter jobbiga, svåra och tidskrävande att ta tag i?
+        Tiden, kunskapen och kraften att ta tag i just erat projekt kan snabbt bli mer
+        omfattande än man tror från början. OffertGuiden hjälper just dig att göra smärtfria
+        upphandlingar. Kunskapen och kontaktnätet inom bygg gör oss slagkraftiga och tillsammans
+        med dej når vi uppsatta mål inom utsatt tid för rätt pris. Låt oss hjälpa just dig. Gör slag
+        i saken Kontakta oss idag!
+        
+    </p>
+    
+ </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+
+                <img src="http://blog.xome.com/wp-content/uploads/2015/09/Renovation-Project-shutterstock_254969464-810x542.jpg" alt="ASP.NET" class="img-responsive" />
+
+            </div>
+            <div class="item">
+                <img src="http://www.designbuildideas.eu/wp-content/uploads/2014/08/home-renovation-project.jpg" alt="Visual Studio" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Läs mer om det här projektet och hur idèn blev verklighet.
+                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
+                            Läs Mer
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://www.dailyherald.com/storyimage/DA/20130815/news/708159821/EP/1/2/EP-708159821.jpg&updated=201308151746&MaxW=800&maxH=800&noborder" alt="Microsoft Azure" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Det här projektet gjordes bara på en vecka.
+                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
+                            Läs Mer
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="item">
+                <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/13585135_600337940125413_4458502585756894607_o.png?oh=d0a7c1d8a0fbad5fba6ae8b60da26be5&oe=59EEF0BA" alt="Package Management" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+
+                </div>
+            </div>
+
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<br />
+<br />
+<br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-circle" src="http://resources.mynewsdesk.com/image/upload/t_next_gen_span3_fit_and_crop/heupkfz44o3j0dhhmbqe.jpg" />
+            <h2>Bostadsförening</h2>
+
+            <p><b>Gör en smart upphandling som styrelse i bostadsrättsföreningen</b></p>
+            <p>En styrelse i en bostadsrättsförening har ansvaret över föreningens egendom och ekonomi 
+                och att förvaltning av dessa sker på rätt sätt. När det är dags för renovering eller andra
+                byggprojekt kommer bostadsrättsföreningen att stå inför tidskrävande och krångliga 
+                upphandlingsprocesser.</p>
+            <button type="button" class="btn btn-default">Läs mer</button>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="http://www.happyhomes.se/media/wysiwyg/Kunskapsbilder/DEMIDEKK-Brilliant-White-fasad-webb.jpg"/>
+            <h2>Privatkund</h2>
+            <p><b>Gör en problemfri upphandling som privatperson</b></p>
+            <p>
+                Privatpersoner brukar normalt sett inte hantera offerter i en större utsträckning. 
+                När man dock hamnar i upphandlingar som privatperson är det naturligt att man är extra försiktig. 
+                Om du då gör fel kan du enbart skylla dig själv. Här kommer OffertGuiden in i bilden. 
+                När OffertGuiden...
+            </p>
+            <button type="button" class="btn btn-default">Läs mer</button>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="http://www.tlbelteknik.se/wp-content/uploads/2014/09/byggforetag.png" />
+            <h2>Företagskund</h2>
+            <p><b>Vill du också få in jobb utan att tappa tid och pengar</b></p>
+            <p> Du är inte ensam. Många byggföretagare idag är less på att jaga kunder, krångla med hantverksformulär 
+                och hantera egna säljare. Egentligen vill man bara göra fina jobb och få betalt för dessa arbeten. 
+                OffertGuiden drivs av Jan Holopainen, Marcus Grimsrud och...</p>
+            <button type="button" class="btn btn-default">Läs mer</button>
+        </div>
+        @*<div class="col-md-3">
+            <h2>Run & Deploy</h2>
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+            </ul>
+        </div>*@
+    </div>
