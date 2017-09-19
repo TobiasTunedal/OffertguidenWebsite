@@ -13,7 +13,7 @@ namespace OffertguidenWebsite.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult OmOss()
         {
             ViewData["Message"] = "Your application description page.";
 
@@ -26,6 +26,26 @@ namespace OffertguidenWebsite.Controllers
 
             return View();
         }
+        public IActionResult Bostadsrattsforening()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult Privatkund()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+        public IActionResult Foretagskund()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
 
         public IActionResult Error()
         {

@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html>
 <style>
-#brand-image {
-    height: 385%;
-}
+    #brand-image {
+        height: 385%;
+        
+    }
 .navbar-nav li{
     
     margin-top: 2%;
@@ -18,13 +19,11 @@
         background-color: white;
         box-shadow: 2px -2px 100px rgba(0,0,0,.5);
     }
-    .navbar-brand{
+    .navbar-brand {
         margin-top: -20px;
+        
     }
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        background-color: cornflowerblue;
-        color: chocolate;
-    }
+
 
 </style>
 
@@ -56,17 +55,27 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="http://www.offertguiden.com">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <img id="brand-image" alt="Website Logo" src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/13585135_600337940125413_4458502585756894607_o.png?oh=d0a7c1d8a0fbad5fba6ae8b60da26be5&oe=59EEF0BA"/>
                 </a>
+
+
+
+
 
                 @*<a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Offertguiden</a>*@
             </div>
             <div class="navbar-collapse collapse navbar-right">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Hem</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">Om Oss</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Tjänster</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="OmOss">Om Oss</a></li>
+                    <li><a class="dropdown-toggle" data-toggle="dropdown" asp-area="" asp-controller="Home" asp-action="Tjanster">Tjänster</a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Bostadsrattsforening">Bostadsrättsförening</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Privatkund">Privatkund</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Foretagskund">Företagskund</a></li>
+                        </ul>
+                    </li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Referenser</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Blogg</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Kontakt</a></li>
@@ -78,7 +87,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - OffertguidenWebsite</p>
+         
         </footer>
     </div>
 
@@ -105,4 +114,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>
