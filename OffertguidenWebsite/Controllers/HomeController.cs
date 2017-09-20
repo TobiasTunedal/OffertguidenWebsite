@@ -45,6 +45,12 @@ namespace OffertguidenWebsite.Controllers
 
             return View();
         }
+        public IActionResult Blogg()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
 
 
         public IActionResult Error()
