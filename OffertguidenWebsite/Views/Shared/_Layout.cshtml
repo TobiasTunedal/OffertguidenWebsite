@@ -23,7 +23,10 @@
         margin-top: -20px;
         
     }
-
+    ul.nav a:hover {
+        color: cornflowerblue !important;
+    }
+ 
 
 </style>
 
@@ -85,10 +88,81 @@
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
+
         <footer>
-         
-        </footer>
+            <div class="col-md-12">
+            <br />
+            <hr />
+            
+            </div>
+            <div class="col-md-3">
+                <h4><b>Kontakt</b></h4>
+            <p>
+                
+                <a href="mailto:info@offertguiden.com">info@offertguiden.com</a><br />
+                
+                08 - 121 469 63
+                <br />
+                070 - 775 29 99
+                <br /><br />
+                <b>Stockholm</b>
+                <br />
+                Wergelandsgatan 28
+                <br />
+                168 28 Bromma
+               
+            </p>   
+            </div>
+
+
+            <div class="col-md-3">
+                <h4><b>Följ oss på</b></h4>
+                <p>
+                    Facebook<br />
+                    Instagram<br />
+                    Twitter<br />
+                    LinkedIn
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <h4><b>Team</b></h4>
+               <p>
+                <b>Jan Holopainen</b>
+                   <br />
+                VD
+                   <br />
+                   <a href="mailto:janne@offertguiden.com">janne@offertguiden.com</a><br />
+                070 - 441 30 37
+                </p>
+
+                <p>
+                    <b>Ronnie Lindblad</b><br />
+                    Sälj & Projektering<br />
+                    <a href="mailto:ronnie@offertguiden.com">ronnie@offertguiden.com</a>
+                    <br />
+                    072 - 323 85 35
+                </p>
+
+                <p>
+                    <b>Marcus Grimsrud</b>
+                    <br />
+                    Sälj & Projektering
+                    <br />
+                    <a href="mailto:marcus@offertguiden.com">marcus@offertguiden.com</a>
+                    <br />
+                    076 - 006 63 10
+                </p>
+                
+            </div>
+
+
+            <div class="col-md-3">
+
+                <a href="http://www.soliditet.se/lang/sv_SE/RatingGuideline" target="_blank" style="text-decoration: none;"><img style="border:0px;" oncontextmenu="return false" title="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Bisnodes v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Bisnodes databas." alt="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Bisnodes v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Bisnodes databas." id="aaLogo" src="http://merit.soliditet.se/merit/imageGenerator/display?lang=SE&country=SE&cId=kiHXHSMYKv%2FkM7Ubyt8aFg%3D%3D&cUid=EhZ89c%2B10Lo%3D&imgType=img_273_73_px_tr1" /></a>
+            </div>
+
+</footer>
     </div>
 
     <environment names="Development">
@@ -116,3 +190,5 @@
 </body>
 
 </html>
+
+
