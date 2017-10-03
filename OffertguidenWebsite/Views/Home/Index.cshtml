@@ -1,34 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<style>
-    #myCarousel {
-        max-width: 50%;
-        min-height: 320px;
-        margin-left: 50%;
-        margin-top: 7%;
-        box-shadow: 2px -2px 100px rgba(0,0,0,.5);
-    }
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        display: block;
-        min-width: 600px;
-        height: 350px;
-    }
-    .carousel-inner > .item > img {
-        margin: 0 auto;
-    }
-    body{
-        line-height: 26px;
-        font-family: Verdana;
-    }
-    .img-circle {
-        height: 200px;
-        width: 200px;
- 
-    }
 
-</style>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/index.css">
+</head>
+
 <div class="col-md-6">
     <br />
     <br />
@@ -60,30 +37,30 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
 
-                <img src="http://blog.xome.com/wp-content/uploads/2015/09/Renovation-Project-shutterstock_254969464-810x542.jpg" alt="ASP.NET" class="img-responsive" />
+                <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/21015794_816521005173771_4048548023371047258_o.jpg?oh=6f81eda70d4ae99ad4c7591a7a607adb&oe=5A800B3B" alt="ASP.NET" class="img-responsive" />
 
             </div>
             <div class="item">
-                <img src="http://www.designbuildideas.eu/wp-content/uploads/2014/08/home-renovation-project.jpg" alt="Visual Studio" class="img-responsive" />
+                <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20988844_816530141839524_7425045394888480312_o.jpg?oh=22bece409c6dc78315cddf180fb653aa&oe=5A42D1CB" alt="Visual Studio" class="img-responsive" />
                 <div class="carousel-caption" role="option">
-                    <p>
+                    @*<p>
                         Läs mer om det här projektet och hur idèn blev verklighet.
                         <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
                             Läs Mer
-                        </a>
+                        </a>*@
                     </p>
                 </div>
             </div>
 
             <div class="item">
-                <img src="http://www.dailyherald.com/storyimage/DA/20130815/news/708159821/EP/1/2/EP-708159821.jpg&updated=201308151746&MaxW=800&maxH=800&noborder" alt="Microsoft Azure" class="img-responsive" />
+                <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/21762748_828772897281915_9085940419380829392_o.jpg?oh=805b7102368bb9173c1271ce8542d931&oe=5A50CE65" alt="Microsoft Azure" class="img-responsive" />
                 <div class="carousel-caption" role="option">
-                    <p>
+                    @*<p>
                         Det här projektet gjordes bara på en vecka.
                         <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
                             Läs Mer
                         </a>
-                    </p>
+                    </p>*@
                 </div>
             </div>
 
@@ -114,7 +91,7 @@
 
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" id="columndiv">
             <img class="img-circle" src="http://resources.mynewsdesk.com/image/upload/t_next_gen_span3_fit_and_crop/heupkfz44o3j0dhhmbqe.jpg" />
             <h2>Bostadsförening</h2>
 
@@ -125,7 +102,7 @@
                 upphandlingsprocesser.</p>
             <a asp-area="" asp-controller="Home" asp-action="Tjanster" class="btn btn-default" role="button">Läs mer</a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" id="columndiv">
             <img class="img-circle" src="http://www.happyhomes.se/media/wysiwyg/Kunskapsbilder/DEMIDEKK-Brilliant-White-fasad-webb.jpg"/>
             <h2>Privatkund</h2>
             <p><b>Gör en problemfri upphandling som privatperson</b></p>
@@ -135,7 +112,7 @@
                 Om du då gör fel kan du enbart skylla dig själv. Här kommer OffertGuiden in i bilden. 
                 När OffertGuiden...
             </p>
-            <a asp-area="" asp-controller="Home" asp-action="Privatkund" class="btn btn-default" role="button">Läs mer</a>
+            <a asp-area="" asp-controller="Home" asp-action="Privatkund" class="btn btn-default" role="button">Läs mer</a><br />
         </div>
        
         <div class="col-md-4">

@@ -1,0 +1,38 @@
+﻿body {
+}
+
+.brand-image {
+    height: 385%;
+}
+
+.navbar-nav li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-right: 35px;
+}
+
+.navbar-header {
+    font-family: ubuntu;
+}
+
+.navbar.navbar-default {
+    background-color: white;
+    box-shadow: 2px -2px 100px rgba(0,0,0,.5);
+}
+
+.navbar-brand {
+    margin-top: -20px;
+}
+
+ul.nav a:hover {
+    color: lawngreen !important;
+}
+
+@media screen and (max-width: 767px) {
+    .brand-image{
+        height: 270%;
+        padding-top: 10%;
+    }
+
+    
+}

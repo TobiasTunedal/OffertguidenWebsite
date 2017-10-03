@@ -1,0 +1,45 @@
+﻿#myCarousel {
+    max-width: 50%;
+    min-height: 320px;
+    margin-left: 50%;
+    margin-top: 7%;
+    box-shadow: 2px -2px 100px rgba(0,0,0,.5);
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block;
+    min-width: 600px;
+    height: 350px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+body {
+    line-height: 26px;
+    font-family: Verdana;
+}
+
+.img-circle {
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    #myCarousel{
+        display: none;
+    }
+    #columndiv{
+        padding-bottom: 15%;
+    }
+    .img-circle{
+        display: block;
+        margin: auto;
+        
+    }
+    body{
+        text-align: center;
+    }
+}
