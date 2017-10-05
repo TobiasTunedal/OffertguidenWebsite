@@ -1,0 +1,48 @@
+﻿body {
+    line-height: 26px;
+    font-family: Verdana;
+}
+
+#aaLogo {
+    height: 75px;
+    float: left;
+}
+
+.img-rounded {
+    height: 200px;
+    box-shadow: 2px -2px 100px rgba(0,0,0,.5);
+    float: left;
+    margin-right: 15px;
+}
+
+#right {
+    float: right;
+}
+
+.beforeAfterPic {
+    height: 300px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        text-align: center;
+    }
+    .beforeAfterPic{
+        height: 120px;
+    }
+    #roundedPicRoof{
+        display: none;
+    }
+    .img-rounded{
+        display: block;
+        margin-bottom: 10%;
+        height: 190px;
+        
+    }
+}
