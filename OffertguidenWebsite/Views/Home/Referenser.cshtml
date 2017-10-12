@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Referenser";
+}
+<style>
+    body {
+        line-height: 26px;
+        font-family: Verdana;
+    }
+
+    .refPic {
+        height: 170px;
+        max-width: 270px;
+    }
+
+    #center {
+        text-align: center;
+    }
+
+    .logo {
+        height: 200px;
+        width: 370px;
+        display: block;
+        margin: auto;
+    }
+
+        #item img {
+            max-width: 100%;
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        #item:hover img {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+     a:hover {
+        text-decoration: none;
+    }
+</style>
+
+
+<br />
+<br />
+<br />
+
+<div class="col-md-12">
+    <h2 id="center"> Offertguiden Referenser</h2>
+    <br />
+    @*<img class="logo" src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20988967_816521085173763_2111244182439520462_o.jpg?oh=553da4ac4b1757bffbf04ad9f783abe6&oe=5A5D6DFE" />
+        <img class="logo" src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/21016007_816521178507087_6752908914213709113_o.jpg?oh=639920079485ac557fd7c793ad4335c2&oe=5A48EC1E" />*@
+</div>
+
+<div class="col-md-3" id="item">
+    <a asp-area="" asp-controller="ReferensFolder" asp-action="Ref1">
+    <img class="refPic" src="https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/20988309_816016671890871_2553236634825829105_o.jpg?oh=5cc5dcdada32c48e9b72e47248b787f9&oe=5A3AD957" alt="Takbild" />
+    <h4 id="center">Takmålning och reparation av tak i Stockholm</h4>
+    </a>
+</div>
+
+

@@ -1,0 +1,32 @@
+﻿body {
+    line-height: 26px;
+    font-family: Verdana;
+}
+
+.img-circle {
+    box-shadow: 2px -2px 100px rgba(0,0,0,.5);
+    margin-left: 20%;
+    height: 270px;
+    width: 270px;
+}
+
+#aaLogoTjanster {
+    height: 75px;
+    margin-left: 17%;
+}
+
+@media screen and (max-width: 767px) {
+    #aaLogoTjanster {
+    display: block;
+    margin: auto;
+    padding-right: 1%;
+}
+    .img-circle{
+        display: block;
+        margin: auto;
+
+    }
+    #aaLogo{
+        display: none;
+    }
+}

@@ -51,8 +51,19 @@ namespace OffertguidenWebsite.Controllers
 
             return View();
         }
+        public IActionResult Referenser()
+        {
+            ViewData["Message"] = "Your contact page.";
 
+            return View();
+        }
 
+        public IActionResult Ref1()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
         public IActionResult Error()
         {
             return View();
