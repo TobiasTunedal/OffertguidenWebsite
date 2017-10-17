@@ -1,6 +1,4 @@
-﻿body {
-}
-
+﻿
 .brand-image {
     height: 385%;
 }
@@ -25,7 +23,7 @@
     margin-top: -20px;
 }
 
-ul.nav a:hover {
+.nav a:hover {
     color: darkslategrey !important;
 }
 
@@ -35,11 +33,11 @@ ul.nav a:hover {
         text-align: center;
     }
     .brand-image{
-        height: 270%;
-        padding-top: 10%;
-      
+       display: none;
     }
-
+    .navbar-brand {
+        display: none;
+    }
     #aaLogo{
         display: block;
         margin: auto;
