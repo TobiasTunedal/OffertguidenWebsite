@@ -26,8 +26,9 @@
 .nav a:hover {
     color: darkslategrey !important;
 }
-
-
+.team{
+    padding-top: 15%;
+}
 @media screen and (max-width: 767px) {
     body{
         text-align: center;
@@ -46,4 +47,5 @@
     .footerH4{
         padding-top:10%;
     }
+
 }
