@@ -27,6 +27,7 @@
 
 h1 {
     text-align: center;
+    color: darkslategrey;
 }
 
 @media screen and (max-width: 767px) {
@@ -40,10 +41,7 @@ h1 {
     #roundedPicRoof{
         display: none;
     }
-    .img-rounded{
-        display: block;
-        margin-bottom: 10%;
-        height: 190px;
-        
+    #roundedPicMassa{
+        display: none;
     }
 }

@@ -22,8 +22,12 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 
     <style>
-      
-
+        a:hover {
+            text-decoration: none;
+        }
+        .navbar-default {
+            border-bottom: none;
+        }
     </style>
     
 </head>
@@ -167,6 +171,8 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
+
 </body>
 
 </html>

@@ -9,6 +9,7 @@
     margin-top: 2%;
     margin-bottom: 2%;
     padding-right: 35px;
+    font-size: 16px;
 }
 
 .navbar-header {
@@ -25,8 +26,9 @@
 }
 
 ul.nav a:hover {
-    color: lawngreen !important;
+    color: darkslategrey !important;
 }
+
 
 @media screen and (max-width: 767px) {
     body{
@@ -35,12 +37,13 @@ ul.nav a:hover {
     .brand-image{
         height: 270%;
         padding-top: 10%;
+      
     }
 
     #aaLogo{
         display: block;
         margin: auto;
-        padding-left: 6%;
+        
     }
     .footerH4{
         padding-top:10%;
