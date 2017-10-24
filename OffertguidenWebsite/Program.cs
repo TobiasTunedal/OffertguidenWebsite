@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
+using System.Data.SqlClient;
+using System.Text;
 
 namespace OffertguidenWebsite
 {
@@ -20,6 +22,10 @@ namespace OffertguidenWebsite
                 .Build();
 
             host.Run();
-        }
+
+
+        }  
+
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿
 .brand-image {
-    height: 385%;
+    height: 385px;
 }
 
 .navbar-nav li {
@@ -29,6 +29,8 @@
 .team{
     padding-top: 15%;
 }
+
+
 @media screen and (max-width: 767px) {
     body{
         text-align: center;
