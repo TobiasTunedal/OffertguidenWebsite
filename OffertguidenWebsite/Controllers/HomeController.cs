@@ -64,9 +64,33 @@ namespace OffertguidenWebsite.Controllers
 
             return View();
         }
+
+        public IActionResult Login()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult LoggedIn()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult CreateBlog()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
         }
+
+
     }
 }

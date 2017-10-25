@@ -1,0 +1,44 @@
+﻿
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/Login.css">
+</head>
+<script src="https://use.typekit.net/ayg4pcz.js"></script>
+<script>try { Typekit.load({ async: true }); } catch (e) { }</script>
+<div class="container">
+    <h1 class="welcome text-center">Välkommen</h1>
+    <div class="card card-container">
+        <h2 class='login_title text-center'>Login</h2>
+        <hr>
+        <form class="form-signin" asp-area="" asp-controller="Home" asp-action="LoggedIn">
+            <span id="reauth-email" class="reauth-email"></span>
+            <p class="input_title">Email</p>
+            <input type="text" id="inputEmail" class="login_box" placeholder="1@hotmail.com" required autofocus>
+            <p class="input_title">Password</p>
+            <input type="password" id="inputPassword" class="login_box" placeholder="******" required>
+            <div id="remember" class="checkbox">
+                <label>
+
+                </label>
+            </div>
+
+
+                <button class="btn btn-lg btn-primary" type="submit" onclick="validate()">Logga in</button>
+                
+</form><!-- /form -->
+    </div><!-- /card-container -->
+</div><!-- /container -->
+
+<script language="javascript">
+    function validate() {
+        var username = document.getElementById("inputEmail").value;
+        var password = document.getElementById("inputPassword").value;
+        if (username == "info@offertguiden.com" && password == "1") {
+            alert("Login successfully");
+        }
+        else {
+            alert("Fel inloggningsuppgifter, vänligen försök igen.");
+            }
+        }
+
+
+</script>

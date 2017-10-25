@@ -31,12 +31,14 @@
         .team {
             padding-top: 15%;
         }
-        #copyright {
+        #footerCopyright {
             text-align: center;
         }
         .brand-image {
-            height: 395%;
+            margin-top: 6%;
+            height: 305%;
         }
+
 
     </style>
     
@@ -53,7 +55,7 @@
                 </button>
 
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img class="brand-image" alt="Website Logo" src="~/images/offertguidenLogo.png"/>
+                    <img class="brand-image" alt="Website Logo" src="~/images/Offertguidenloggan.png"/>
                 </a>
 
 
@@ -160,13 +162,15 @@
             </div>
             <div class="col-md-12" id="footerCopyright">
                 <hr />
-                <p id="copyright">
+                <a asp-area="" asp-controller="Home" asp-action="Login">Logga in</a>
+                <br />
                     Copyright &copy;
                     <script type="text/javascript">
                         var d = new Date()
                         document.write(d.getFullYear())
                     </script> Offertguiden
-                </p>
+
+
             </div>
 
 </footer>
